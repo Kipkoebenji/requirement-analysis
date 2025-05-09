@@ -20,3 +20,66 @@ Requirement Analysis is critical because:
 
 Without proper requirement analysis, projects are prone to scope creep, missed deadlines, budget overruns, and software that fails to meet user needs.
 
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several critical activities that ensure software requirements are thoroughly understood and correctly implemented. The five key activities are:
+
+- **Requirement Gathering**
+  - Involves collecting high-level requirements from stakeholders such as clients, users, and subject matter experts.
+  - Focuses on understanding the business goals, user needs, and constraints.
+  - Tools used: interviews, surveys, observation, and document analysis.
+
+- **Requirement Elicitation**
+  - Refines gathered data by engaging with stakeholders to clarify and elaborate on requirements.
+  - Techniques include brainstorming, focus groups, prototyping, and workshops.
+  - Helps uncover hidden needs, assumptions, and system expectations.
+
+- **Requirement Documentation**
+  - Translates the elicited requirements into formal documentation such as Software Requirement Specification (SRS) documents.
+  - Ensures that requirements are written clearly, concisely, and unambiguously for all stakeholders to understand.
+  - Documents can include user stories, use cases, and requirement traceability matrices.
+
+- **Requirement Analysis and Modeling**
+  - Involves evaluating and organizing requirements to identify conflicts, overlaps, and feasibility.
+  - Utilizes modeling tools like data flow diagrams, entity-relationship diagrams, and UML diagrams to visualize and validate system behavior and structure.
+  - Helps in transforming raw requirements into structured inputs for design and development.
+
+- **Requirement Validation**
+  - Ensures that the documented requirements accurately reflect stakeholder needs and are complete, consistent, and testable.
+  - Techniques include reviews, walkthroughs, inspections, and formal validation meetings.
+  - Prevents costly changes by catching issues before development begins.
+
+## Types of Requirements
+
+In software development, requirements are generally categorized into two main types: Functional Requirements and Non-functional Requirements. Both are essential for building a reliable and efficient system.
+
+### Functional Requirements
+
+Functional requirements describe what the system should do — the specific behaviors, functions, and processes it must support.
+
+**Definition:**  
+These are the features and operations that define how the system will behave in response to certain inputs or in specific situations.
+
+**Examples in a Booking Management Project:**
+- Users should be able to create, modify, and cancel bookings.
+- The system should allow customers to search for available rooms based on dates and preferences.
+- Admin users must be able to generate booking reports.
+- The system should send email notifications upon successful booking or cancellation.
+- A login system must differentiate between customer, receptionist, and admin roles.
+
+### Non-functional Requirements
+
+Non-functional requirements define the quality attributes, performance, and constraints of the system rather than specific behaviors.
+
+**Definition:**  
+These describe how the system performs under certain conditions, including usability, reliability, performance, and security.
+
+**Examples in a Booking Management Project:**
+- The system should handle up to 1,000 concurrent users without performance degradation.
+- All pages should load within 2 seconds under normal network conditions.
+- The application must be accessible on mobile devices and desktop browsers.
+- The system must encrypt sensitive user information such as passwords and payment details.
+- Availability of the system should be 99.9% uptime annually.
+
+
+
