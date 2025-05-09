@@ -81,5 +81,34 @@ These describe how the system performs under certain conditions, including usabi
 - The system must encrypt sensitive user information such as passwords and payment details.
 - Availability of the system should be 99.9% uptime annually.
 
+## Use Case Diagrams
+
+Use Case Diagrams are a visual modeling tool used in software engineering to illustrate the interactions between users (actors) and a system to achieve specific goals (use cases). These diagrams help stakeholders quickly understand the system's functionality and the roles different users play.
+
+### Benefits of Use Case Diagrams:
+- Provide a high-level overview of system functionality.
+- Help in identifying the interactions between users and the system.
+- Support requirement analysis and system design phases.
+- Serve as communication tools between technical and non-technical stakeholders.
+
+### Use Case Diagram for the Booking Management System
+
+The following diagram illustrates key actors and their interactions with the system:
+
+**Actors:**
+- Customer
+- Receptionist
+- Admin
+
+**Use Cases:**
+- Register/Login
+- Search for Available Rooms
+- Make a Booking
+- Cancel Booking
+- Modify Booking
+- Generate Booking Reports
+- Manage Users
+
+![Use Case Diagram for Booking Management System](alx-booking-uc.png)
 
 
